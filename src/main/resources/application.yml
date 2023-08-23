@@ -3,18 +3,24 @@ server:
 
 ---
 spring:
-  profiles: local
+  config:
+    activate:
+      on-profile: local
 server:
   port: 8080
 
 ---
 spring:
-  profiles: dev
+  config:
+    activate:
+      on-profile: dev
 server:
   port: 8081
 
 ---
 spring:
-  profiles: real
+  config:
+    activate:
+      on-profile: real
 server:
   port: 8082
