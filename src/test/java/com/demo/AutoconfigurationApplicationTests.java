@@ -27,7 +27,7 @@ public class AutoconfigurationApplicationTests {
     @Value("${propertyTestList}")
     private String[] propertyTestArray;
 
-  @Value("#{'${propertyTestList}' .split(', ')}")
+    @Value("#{'${propertyTestList}' .split(', ')}")
     private List<String> propertyTestList;
 
     @Test
