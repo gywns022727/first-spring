@@ -1,0 +1,20 @@
+server:
+  port: 8090
+
+---
+spring:
+  profiles: local
+server:
+  port: 8080
+
+---
+spring:
+  profiles: dev
+server:
+  port: 8081
+
+---
+spring:
+  profiles: real
+server:
+  port: 8082
