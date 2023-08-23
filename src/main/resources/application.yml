@@ -1,6 +1,21 @@
 server:
   port: 8090
 
+property:
+  test:
+    name: property depth test
+propertyTest: test
+propertyTestList: a, b, c
+
+fruit:
+  list:
+    - name: banana
+      color: yellow
+    - name: apple
+      color: red
+    - name: water melon
+      color: green
+
 ---
 spring:
   config:
